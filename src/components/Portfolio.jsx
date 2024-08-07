@@ -102,9 +102,5 @@ const cards = [
     title: "Shopify Store",
     id: 8,
   },
-  {
-    url: "/ui.png",
-    title: "UI Design",
-    id: 9,
-  },
+ 
 ];
