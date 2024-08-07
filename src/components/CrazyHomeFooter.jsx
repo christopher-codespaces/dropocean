@@ -16,7 +16,7 @@ export const CrazyHomeFooter = () => {
       <FlipLink
         href="/gallery"
         color="text-blue-900">
-        Coffee ?
+        Gallery
       </FlipLink>
       <FlipLink href="/our-work" color="text-pink-500">
         Portfolio
