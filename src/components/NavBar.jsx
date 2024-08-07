@@ -5,16 +5,12 @@ function NavBar() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <header className="py-4  sm:py-6">
+    <header className="py-4 sm:py-6">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="shrink-0">
-            <a href="#" title="" className="flex">
-              <img
-                className="w-auto h-9"
-                src="https://landingfoliocom.imgix.net/store/collection/dusk/images/logo.svg"
-                alt=""
-              />
+            <a href="/" title="" className="flex">
+              <span className="logo-text">Cape Neto Web Solutions</span>
             </a>
           </div>
 
@@ -60,27 +56,25 @@ function NavBar() {
 
           <nav className="hidden md:flex md:items-center md:justify-end md:space-x-12">
             <a
-              href="#"
+              href="/our-work"
               title=""
               className="text-base font-normal text-white transition-all duration-200 hover:text-white">
-              Products
+              Our Work
             </a>
 
             <a
-              href="#"
+              href="/about"
               title=""
               className="text-base font-normal text-white transition-all duration-200 hover:text-white">
-              Features
+              About Us
             </a>
 
             <a
-              href="#"
+              href="/gallery"
               title=""
               className="text-base font-normal text-white transition-all duration-200 hover:text-white">
-              Pricing
+              Gallery
             </a>
-
-          
           </nav>
         </div>
 
@@ -88,27 +82,25 @@ function NavBar() {
           <nav>
             <div className="flex flex-col pt-8 pb-4 space-y-6">
               <a
-                href="#"
+                href="/our-work"
                 title=""
-                className="text-base font-normal text-gray-900 transition-all duration-200 hover:text-white">
-                Products
+                className="expanded-nav-link transition-all duration-200 ">
+                Our Work
               </a>
 
               <a
-                href="#"
+                href="/about"
                 title=""
-                className="text-base font-normal text-gray-900  transition-all duration-200 hover:text-white">
-                Features
+                className="expanded-nav-link transition-all duration-200 ">
+                About Us
               </a>
 
               <a
-                href="#"
+                href="/gallery"
                 title=""
-                className="text-base font-normal text-gray-900 transition-all duration-200 hover:text-white">
-                Pricing
+                className="expanded-nav-link transition-all duration-200 ">
+                Gallery
               </a>
-
-              
             </div>
           </nav>
         )}

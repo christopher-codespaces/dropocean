@@ -8,7 +8,7 @@ const MagicCard = () => (
         Get in contact with our expert team members to help you get started.
       </p>
       <a
-        href="#"
+        href="https://cal.com/nocodewithchrisagency/30min"
         className="bg-white hover:bg-gray-200 text-purple-600 font-bold py-2 px-4 rounded">
         Grab a coffee
       </a>

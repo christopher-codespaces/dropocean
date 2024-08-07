@@ -1,7 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 
 body{
   background-color: black;
+}
+.logo-text {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 2rem; /* Adjust the size as needed */
+  color: white; /* Adjust the color as needed */
+}
+
+.expanded-nav-link {
+  color: white;
+  font-size: 1rem; /* Adjust the size as needed */
+  font-weight: 400; /* Adjust the weight as needed */
 }

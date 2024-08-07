@@ -45,26 +45,26 @@ const secondRow = reviews.slice(reviews.length / 2);
 
 const ReviewCard = ({ img, name, username, body }) => {
   return (
-    <figure className="relative w-64 mr-10 mt-8 cursor-pointer overflow-hidden rounded-xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05] dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]">
+    <figure className="relative w-64 mr-10 mt-8 cursor-pointer overflow-hidden rounded-xl border p-4 border-gray-300 bg-white hover:bg-gray-200 sm:w-56 xs:w-48">
       <div className="flex flex-row items-center gap-2">
         <img className="rounded-full" width="32" height="32" alt="" src={img} />
         <div className="flex flex-col">
-          <figcaption className="text-sm font-medium dark:text-white">
+          <figcaption className="text-sm font-medium text-black">
             {name}
           </figcaption>
-          <p className="text-xs font-medium dark:text-white/40">{username}</p>
+          <p className="text-xs font-medium text-gray-600">{username}</p>
         </div>
       </div>
-      <blockquote className="mt-2  dark:text-white text-sm">{body}</blockquote>
+      <blockquote className="mt-2 text-black text-sm">{body}</blockquote>
     </figure>
   );
 };
 
 export function Review() {
   return (
-    <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg mt-20  bg-black md:shadow-xl">
-      <h1 className="mt-6 text-4xl font-normal text-white sm:mt-10 mb-20 sm:text-5xl lg:text-6xl xl:text-8xl">
-        Here from our customers
+    <div className="relative flex flex-col items-center justify-center overflow-hidden rounded-lg mt-20 md:shadow-xl">
+      <h1 className="mt-6 text-4xl font-normal text-white sm:mt-10 mb-20 sm:text-5xl lg:text-6xl xl:text-8xl glow">
+        Hear from our customers
       </h1>
       <Marquee pauseOnHover={true} speed={400}>
         {firstRow.map((review) => (
@@ -76,8 +76,8 @@ export function Review() {
           <ReviewCard key={review.username} {...review} />
         ))}
       </Marquee>
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-black dark:from-black"></div>
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-black dark:from-black"></div>
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white"></div>
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white"></div>
     </div>
   );
 }

@@ -16,9 +16,7 @@ function Hero() {
               Webflow Experts
             </h1>
             <p className="max-w-lg mt-4 text-xl font-normal text-gray-400 sm:mt-8">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat.
+              From design to reality our team of webflow experts will create a high converting website for your company.
             </p>
             <div className="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
               <div className="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
