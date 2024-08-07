@@ -10,7 +10,7 @@ function NavBar() {
         <div className="flex items-center justify-between">
           <div className="shrink-0">
             <a href="/" title="" className="flex">
-              <span className="logo-text">Cape Neto Web Solutions</span>
+              <span className="logo-text">Cape Neto Agency</span>
             </a>
           </div>
 
