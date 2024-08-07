@@ -66,11 +66,7 @@ const Card = ({ card }) => {
 export default Portfolio;
 
 const cards = [
-  {
-    url: "/dash.png",
-    title: "Dashboard",
-    id: 1,
-  },
+ 
   {
     url: "/dating.png",
     title: "Dating App",
