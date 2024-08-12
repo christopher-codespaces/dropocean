@@ -1,27 +1,35 @@
-"use client"
-import React, { createContext, useState } from "react";
+"use client";
+import React from "react";
 import { motion } from "framer-motion";
 
 export const CrazyHomeFooter = () => {
   return (
-    <section className="grid place-content-center gap-2 bg-black px-8 py-24 text-white">
-      <FlipLink href="/about" color="text-blue-500">
-        About US
-      </FlipLink>
-      <FlipLink
-        href="https://cal.com/nocodewithchrisagency/30min"
-        color="text-blue-900">
-        Coffee ?
-      </FlipLink>
-      <FlipLink
-        href="/gallery"
-        color="text-blue-900">
-        Gallery
-      </FlipLink>
-      <FlipLink href="/our-work" color="text-pink-500">
-        Portfolio
-      </FlipLink>
-    </section>
+    <footer className="bg-black text-white py-24 px-8">
+      <div className="hidden md:grid place-content-center gap-2">
+        <FlipLink href="/about" color="text-blue-500">
+          About US
+        </FlipLink>
+        <FlipLink
+          href="https://cal.com/nocodewithchrisagency/30min"
+          color="text-blue-900">
+          Coffee ?
+        </FlipLink>
+        <FlipLink href="/gallery" color="text-blue-900">
+          Gallery
+        </FlipLink>
+        <FlipLink href="/our-work" color="text-pink-500">
+          Portfolio
+        </FlipLink>
+      </div>
+      <div className="md:hidden grid place-content-center gap-2">
+        <SimpleLink href="/about">About US</SimpleLink>
+        <SimpleLink href="https://cal.com/nocodewithchrisagency/30min">
+          Coffee ?
+        </SimpleLink>
+        <SimpleLink href="/gallery">Gallery</SimpleLink>
+        <SimpleLink href="/our-work">Portfolio</SimpleLink>
+      </div>
+    </footer>
   );
 };
 
@@ -83,5 +91,13 @@ const FlipLink = ({ children, href, color }) => {
         ))}
       </div>
     </motion.a>
+  );
+};
+
+const SimpleLink = ({ children, href }) => {
+  return (
+    <a href={href} className="text-blue-500 text-2xl font-semibold uppercase">
+      {children}
+    </a>
   );
 };

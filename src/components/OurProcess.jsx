@@ -6,8 +6,8 @@ import { FaFire } from "react-icons/fa";
 
 export const OurProcess = () => {
   return (
-    <div className=" mt-20 h-screen w-full  text-neutral-50">
-      <h1 className=" justify-center center items-center mt-6 text-4xl font-mono text-white sm:mt-10 mb-20 sm:text-5xl lg:text-6xl xl:text-8xl glow">
+    <div className="hidden lg:block mt-20 h-screen w-full text-neutral-50">
+      <h1 className="justify-center center items-center mt-6 text-4xl font-mono text-white sm:mt-10 mb-20 sm:text-5xl lg:text-6xl xl:text-8xl glow">
         Our Process
       </h1>
       <Board />

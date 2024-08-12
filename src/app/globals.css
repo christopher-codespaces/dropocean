@@ -18,3 +18,17 @@ body{
   font-size: 1rem; /* Adjust the size as needed */
   font-weight: 400; /* Adjust the weight as needed */
 }
+
+
+/* Global styles or component-specific styles */
+@media (max-width: 1023px) {
+  .our-process {
+    display: none; /* Hide on mobile and tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  .our-process {
+    display: block; /* Show on desktop */
+  }
+}
