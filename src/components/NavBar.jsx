@@ -10,7 +10,7 @@ function NavBar() {
         <div className="flex items-center justify-between">
           <div className="shrink-0">
             <a href="/" title="" className="flex">
-              <span className="logo-text">Cape Neto Agency</span>
+              <span className="logo-text">Cape Neto Design</span>
             </a>
           </div>
 
@@ -70,6 +70,12 @@ function NavBar() {
             </a>
 
             <a
+              href="/portfolio"
+              title=""
+              className="text-base font-normal text-white transition-all duration-200 hover:text-white">
+              Portfolio
+            </a>
+            <a
               href="/gallery"
               title=""
               className="text-base font-normal text-white transition-all duration-200 hover:text-white">
@@ -96,10 +102,10 @@ function NavBar() {
               </a>
 
               <a
-                href="/gallery"
+                href="/portfolio"
                 title=""
                 className="expanded-nav-link transition-all duration-200 ">
-                Gallery
+                Portfolio
               </a>
             </div>
           </nav>

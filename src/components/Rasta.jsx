@@ -1,31 +1,53 @@
 "use client";
 import { useAnimate } from "framer-motion";
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { FiMousePointer } from "react-icons/fi";
 
 export const Rasta = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768); // Adjust the breakpoint as needed
+    };
+
+    handleResize(); // Check on initial render
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
-    <MouseImageTrail
-      renderImageBuffer={50}
-      rotationRange={25}
-      images={[
-        "/dash.png",
-        "/dating.png",
-        "/delivery.png",
-        "/Figma.png",
-        "/forex.png",
-        "/lulep.png",
-        "/shopify-app.png",
-        "/shopify.png",
-        "/ui.png",
-      ]}>
-      <section className="grid h-screen w-full place-content-center bg-white">
-        <p className="flex items-center gap-2 text-3xl font-bold uppercase text-black">
-          <FiMousePointer />
-          <span>Hover me</span>
-        </p>
-      </section>
-    </MouseImageTrail>
+    <div>
+      {isMobile ? (
+        <section className="flex items-center justify-center h-screen bg-white">
+          <p className="text-xl font-bold text-black">
+            This feature only works on laptop view.
+          </p>
+        </section>
+      ) : (
+        <MouseImageTrail
+          renderImageBuffer={50}
+          rotationRange={25}
+          images={[
+            "/dash.png",
+            "/dating.png",
+            "/delivery.png",
+            "/Figma.png",
+            "/forex.png",
+            "/lulep.png",
+            "/shopify-app.png",
+            "/shopify.png",
+            "/ui.png",
+          ]}>
+          <section className="grid h-screen w-full place-content-center bg-white">
+            <p className="flex items-center gap-2 text-3xl font-bold uppercase text-black">
+              <FiMousePointer />
+              <span>Hover me</span>
+            </p>
+          </section>
+        </MouseImageTrail>
+      )}
+    </div>
   );
 };
 
