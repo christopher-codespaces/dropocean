@@ -7,16 +7,18 @@ function Hero() {
         <div className="relative">
           <div className="lg:w-2/3">
             <p className="text-sm font-normal tracking-widest text-gray-300 uppercase">
-              A Hub for Designers, Developers & Marketers
+              Expert Solutions for Construction Projects
             </p>
-            <h1 className="mt-6 text-4xl font-normal text-white sm:mt-10 sm:text-5xl lg:text-6xl xl:text-8xl">
+            <h1 className="mt-6 text-2xl font-boild text-white sm:mt-10 sm:text-5xl lg:text-6xl xl:text-8xl">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500">
-                Your
+                Building the Most Trusted
               </span>{" "}
-              Webflow Experts
+              Home Improvement Websites
             </h1>
+
             <p className="max-w-lg mt-4 text-xl font-normal text-gray-400 sm:mt-8">
-              From design to reality our team of webflow experts will create a high converting website for your company.
+              Transforming your construction business with high-performance
+              websites and solutions tailored for the industry.
             </p>
             <div className="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
               <div className="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
@@ -25,7 +27,7 @@ function Hero() {
                 title=""
                 className="relative inline-flex items-center justify-center px-8 py-3 text-base font-normal text-white bg-black border border-transparent rounded-full"
                 role="button">
-                Your Webflow Experts
+                Start Your Project
               </a>
             </div>
 
@@ -58,8 +60,9 @@ function Hero() {
                 </svg>
 
                 <span className="ml-2 text-base font-normal text-white">
-                  Elevate your project with a dedicated in-house team, crafting
-                  premium websites and web applications.
+                  Build a strong online presence with a dedicated team that
+                  delivers top-notch websites and digital solutions for your
+                  construction business.
                 </span>
               </div>
             </div>

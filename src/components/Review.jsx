@@ -63,9 +63,9 @@ const ReviewCard = ({ img, name, username, body }) => {
 export function Review() {
   return (
     <div className="relative flex flex-col items-center justify-center overflow-hidden rounded-lg mt-20 md:shadow-xl">
-      <h1 className="mt-6 text-4xl font-normal text-white sm:mt-10 mb-20 sm:text-5xl lg:text-6xl xl:text-8xl glow">
+      <h2 className="mt-6 text-4xl font-normal text-white sm:mt-10 mb-20 sm:text-5xl lg:text-6xl xl:text-8xl glow">
         Hear from our customers
-      </h1>
+      </h2>
       <Marquee pauseOnHover={true} speed={400}>
         {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />

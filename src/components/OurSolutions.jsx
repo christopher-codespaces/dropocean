@@ -1,6 +1,7 @@
 import React from "react";
 import { FaHtml5, FaTools, FaCode } from "react-icons/fa";
 import Magic from "./Magic"
+
 const services = [
   {
     title: "Webflow Expertise",

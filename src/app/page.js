@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Cape Neto Design | Home</title>
+        <title>Cape Neto Solutions | Home</title>
         <meta
           name="description"
           content="Cape Neto Design offers exceptional web design and development services specializing in construction industry solutions. Our expertise includes advanced booking systems, automation, SEO, and more."

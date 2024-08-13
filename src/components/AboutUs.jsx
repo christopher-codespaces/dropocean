@@ -42,24 +42,24 @@ export default function AboutUs() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-indigo-600">
-                Transform Your Online Presence
+                Build Your Future with Us
               </p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Expert Webflow Development
+                Expert Construction Web Solutions
               </h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                At [Your Agency Name], we specialize in creating
-                high-performance, visually stunning websites using Webflow. Our
-                team delivers customized solutions that drive engagement and
-                growth for your business.
+                At Cape Neto Web Solutions, we specialize in creating
+                high-performance, visually stunning websites tailored for the
+                construction industry. Our team delivers customized solutions
+                that showcase your projects and drive business growth.
               </p>
             </div>
           </div>
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
-            alt="Webflow Showcase"
-            src="https://yourdomain.com/path/to/your-showcase-image.png"
+            alt="Construction Showcase"
+            src="/Macbook-Air-peachtreepools.com.png"
             className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
           />
         </div>
@@ -68,9 +68,10 @@ export default function AboutUs() {
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
                 Our approach focuses on delivering exceptional results through
-                seamless Webflow design and development. From bespoke animations
-                to complex interactions, we handle every aspect of your project
-                with precision and expertise.
+                seamless construction web design and development. From
+                showcasing your completed projects to integrating client
+                management systems, we handle every aspect of your project with
+                precision and expertise.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
@@ -80,10 +81,11 @@ export default function AboutUs() {
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Custom Webflow Designs.
+                      Custom Construction Web Designs.
                     </strong>{" "}
-                    Tailored solutions that align perfectly with your brand and
-                    goals, ensuring a unique and engaging online presence.
+                    Tailored solutions that highlight your projects and
+                    expertise, creating a compelling online presence for your
+                    construction business.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -93,10 +95,10 @@ export default function AboutUs() {
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Advanced Interactions.
+                      Advanced Interactive Features.
                     </strong>{" "}
-                    Implementing interactive features and animations that
-                    enhance user experience and engagement on your site.
+                    Implementing interactive elements and animations that engage
+                    visitors and showcase your projects effectively.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -106,27 +108,28 @@ export default function AboutUs() {
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
-                      Robust Performance.
+                      Robust Performance and Reliability.
                     </strong>{" "}
-                    Ensuring fast load times, responsive design, and reliable
-                    performance for an optimal user experience across all
+                    Ensuring fast load times, responsive design, and dependable
+                    performance for a seamless user experience across all
                     devices.
                   </span>
                 </li>
               </ul>
               <p className="mt-8">
-                Partner with us to bring your vision to life with cutting-edge
-                Webflow solutions. Our commitment to excellence and client
-                satisfaction sets us apart as a leading Webflow agency.
+                Partner with us to elevate your construction business with
+                cutting-edge web solutions. Our commitment to quality and client
+                satisfaction sets us apart as a leading agency in the
+                construction niche.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                Ready to Elevate Your Brand?
+                Ready to Build Your Online Presence?
               </h2>
               <p className="mt-6">
                 Contact us today to discuss how we can help you achieve your
-                digital goals. With our expertise in Webflow development, {`we'll`}
-                create a website that not only meets but exceeds your
-                expectations.
+                digital goals. With our expertise in construction web
+                development, we’ll create a website that not only meets but
+                exceeds your expectations.
               </p>
             </div>
           </div>
