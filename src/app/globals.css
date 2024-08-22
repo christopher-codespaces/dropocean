@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 
-body{
+body {
   background-color: black;
 }
+
 .logo-text {
-  font-family: 'Lora', serif;
-  font-weight: 700;
-  font-size: 2rem; /* Adjust the size as needed */
+  font-family: 'Luxurious Script', cursive;
+  font-weight: 600;
+  font-size: 3rem; /* Adjust the size as needed */
   color: white; /* Adjust the color as needed */
 }
 

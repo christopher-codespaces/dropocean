@@ -69,12 +69,7 @@ function NavBar() {
               About Us
             </a>
 
-            <a
-              href="/portfolio"
-              title=""
-              className="text-base font-normal text-white transition-all duration-200 hover:text-white">
-              Portfolio
-            </a>
+        
             <a
               href="/gallery"
               title=""
@@ -101,12 +96,7 @@ function NavBar() {
                 About Us
               </a>
 
-              <a
-                href="/portfolio"
-                title=""
-                className="expanded-nav-link transition-all duration-200 ">
-                Portfolio
-              </a>
+           
             </div>
           </nav>
         )}
