@@ -34,7 +34,7 @@ const teamMembers = [
 
 export default function Team() {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-inherit mt-20  py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-semibold text-black text-center mb-12">
           Meet Our Team
@@ -46,16 +46,16 @@ export default function Team() {
               className="border rounded-md overflow-hidden max-md:max-w-[300px]">
               <img
                 src={member.image}
-                className="w-full h-60 object-contain object-top "
+                className="w-full h-60  bg-white object-contain object-top "
                 alt={member.name}
               />
               <div className="p-4">
-                <h4 className="text-black text-base font-bold">
+                <h4 className="text-white text-2xl  font-bold">
                   {member.name}
                 </h4>
-                <p className="text-black text-xs mt-1">{member.role}</p>
+                <p className="text-white text-xs mt-1">{member.role}</p>
                 <div className="mt-4">
-                  <p className="text-black text-sm leading-relaxed">
+                  <p className="text-white text-sm leading-relaxed">
                     {member.bio}
                   </p>
                 </div>

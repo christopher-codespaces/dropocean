@@ -7,7 +7,7 @@ import {
 
 export default function AboutUs() {
   return (
-    <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+    <div className="relative isolate overflow-hidden  px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
           aria-hidden="true"
@@ -23,7 +23,7 @@ export default function AboutUs() {
               <path d="M100 200V.5M.5 .5H200" fill="none" />
             </pattern>
           </defs>
-          <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
+          <svg x="50%" y={-1} className="overflow-visible fill-gray-100">
             <path
               d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
               strokeWidth={0}
@@ -41,60 +41,60 @@ export default function AboutUs() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
-              <p className="text-base font-semibold leading-7 text-indigo-600">
+              <p className="text-base font-semibold leading-7 text-white">
                 Build Your Future with Us
               </p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Expert Construction Web Solutions
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                Expert home improvement Web Solutions
               </h1>
-              <p className="mt-6 text-xl leading-8 text-gray-700">
+              <p className="mt-6 text-xl leading-8 text-white">
                 At Cape Neto Web Solutions, we specialize in creating
                 high-performance, visually stunning websites tailored for the
-                construction industry. Our team delivers customized solutions
-                that showcase your projects and drive business growth.
+                home improvement industry. Our team delivers customized
+                solutions that showcase your projects and drive business growth.
               </p>
             </div>
           </div>
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
-            alt="Construction Showcase"
+            alt="home improvement Showcase"
             src="/Macbook-Air-peachtreepools.com.png"
             className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
           />
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
-            <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
+            <div className="max-w-xl text-base leading-7 text-white lg:max-w-lg">
               <p>
                 Our approach focuses on delivering exceptional results through
-                seamless construction web design and development. From
+                seamless home improvement web design and development. From
                 showcasing your completed projects to integrating client
                 management systems, we handle every aspect of your project with
                 precision and expertise.
               </p>
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+              <ul role="list" className="mt-8 space-y-8 text-white">
                 <li className="flex gap-x-3">
                   <CloudArrowUpIcon
                     aria-hidden="true"
-                    className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                    className="mt-1 h-5 w-5 flex-none text-white"
                   />
                   <span>
-                    <strong className="font-semibold text-gray-900">
-                      Custom Construction Web Designs.
+                    <strong className="font-semibold text-white">
+                      Custom home improvement Web Designs.
                     </strong>{" "}
                     Tailored solutions that highlight your projects and
                     expertise, creating a compelling online presence for your
-                    construction business.
+                    home improvement business.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <LockClosedIcon
                     aria-hidden="true"
-                    className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                    className="mt-1 h-5 w-5 flex-none text-white"
                   />
                   <span>
-                    <strong className="font-semibold text-gray-900">
+                    <strong className="font-semibold text-white">
                       Advanced Interactive Features.
                     </strong>{" "}
                     Implementing interactive elements and animations that engage
@@ -104,10 +104,10 @@ export default function AboutUs() {
                 <li className="flex gap-x-3">
                   <ServerIcon
                     aria-hidden="true"
-                    className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                    className="mt-1 h-5 w-5 flex-none text-white"
                   />
                   <span>
-                    <strong className="font-semibold text-gray-900">
+                    <strong className="font-semibold text-white">
                       Robust Performance and Reliability.
                     </strong>{" "}
                     Ensuring fast load times, responsive design, and dependable
@@ -117,17 +117,17 @@ export default function AboutUs() {
                 </li>
               </ul>
               <p className="mt-8">
-                Partner with us to elevate your construction business with
+                Partner with us to elevate your home improvement business with
                 cutting-edge web solutions. Our commitment to quality and client
-                satisfaction sets us apart as a leading agency in the
-                construction niche.
+                satisfaction sets us apart as a leading agency in the home
+                improvement niche.
               </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-white">
                 Ready to Build Your Online Presence?
               </h2>
               <p className="mt-6">
                 Contact us today to discuss how we can help you achieve your
-                digital goals. With our expertise in construction web
+                digital goals. With our expertise in home improvement web
                 development, we’ll create a website that not only meets but
                 exceeds your expectations.
               </p>

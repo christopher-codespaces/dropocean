@@ -6,10 +6,7 @@ function Hero() {
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="relative">
           <div className="lg:w-2/3">
-            <p className="text-sm font-normal tracking-widest text-gray-300 uppercase">
-              Expert Solutions for Construction Projects
-            </p>
-            <h1 className="mt-6 text-2xl font-boild text-white sm:mt-10 sm:text-5xl lg:text-6xl xl:text-8xl">
+            <h1 className="mt-6 text-2xl font-bold text-white sm:mt-10 sm:text-5xl lg:text-6xl xl:text-8xl">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500">
                 Building the Most Trusted
               </span>{" "}
@@ -17,7 +14,7 @@ function Hero() {
             </h1>
 
             <p className="max-w-lg mt-4 text-xl font-normal text-gray-400 sm:mt-8">
-              Transforming your construction business with high-performance
+              Transforming your home improvement business with high-performance
               websites and solutions tailored for the industry.
             </p>
             <div className="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
@@ -62,8 +59,80 @@ function Hero() {
                 <span className="ml-2 text-base font-normal text-white">
                   Build a strong online presence with a dedicated team that
                   delivers top-notch websites and digital solutions for your
-                  construction business.
+                  home improvement business.
                 </span>
+              </div>
+
+              {/* Trust Badges Section */}
+              <div className="mt-12 flex flex-wrap gap-8">
+                <div className="flex items-center space-x-3">
+                  <svg
+                    className="w-8 h-8 text-cyan-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12l5 5L20 7" />
+                  </svg>
+                  <span className="text-lg font-medium text-white">
+                    More Traffic
+                  </span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <svg
+                    className="w-8 h-8 text-cyan-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 16l4-4-4-4" />
+                  </svg>
+                  <span className="text-lg font-medium text-white">
+                    Better Lead Quality
+                  </span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <svg
+                    className="w-8 h-8 text-cyan-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12l4 4L19 7" />
+                  </svg>
+                  <span className="text-lg font-medium text-white">
+                    Sell More Roofs
+                  </span>
+                </div>
+              </div>
+
+              <div className="mt-8">
+                <div className="flex items-center space-x-3">
+                  <svg
+                    className="w-8 h-8 text-cyan-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 8h16M4 12h16M4 16h16" />
+                  </svg>
+                  <span className="text-lg font-medium text-white">
+                    100% Money Back Guarantee
+                  </span>
+                </div>
               </div>
             </div>
           </div>
