@@ -1,4 +1,4 @@
-use client";
+"use client";
 import React, { useEffect } from "react";
 import { ProjectCard } from "./ProjectCard";
 import Cal, { getCalApi } from "@calcom/embed-react";
