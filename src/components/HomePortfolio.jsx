@@ -19,25 +19,9 @@ const projects = [
       "Blog Content",
     ],
     image: "/bluecollarhaulers.com.webm",
-    links: [{ label: "Website", url: "#" }],
+    links: [{ label: "Website", url: "bluecollarhaulers.com" }],
   },
-  {
-    title: "Friendly Firm",
-    date: "March 2024 - Present",
-    description:
-      "For Friendly Firm, we developed and launched a new site with Webflow, incorporating booking features, automation, Stripe integration, and SEO. The enhanced functionality and design led to a 150% increase in traffic and doubled their sales.",
-    tags: [
-      "Webflow",
-      "Booking",
-      "Automation",
-      "Stripe",
-      "Social Media Integration",
-      "SEO",
-      "Blog Content",
-    ],
-    image: "/Friendlyfirm.webm",
-    links: [{ label: "Website", url: "#" }],
-  },
+
   {
     title: "Rogers Dumpsters",
     date: "July 2023 - October 2023",
@@ -53,25 +37,9 @@ const projects = [
       "Blog Content",
     ],
     image: "/rogersdumpsters.com.webm",
-    links: [{ label: "Website", url: "#" }],
+    links: [{ label: "Website", url: "rogersdumpsters.com" }],
   },
-  {
-    title: "Wpbabu",
-    date: "November 2023 - Present",
-    description:
-      "The Wpbabu website redesign used Webflow to integrate booking systems, automation, and Stripe payments, complemented by social media features and SEO. This overhaul contributed to a 120% increase in visitors and a 300% growth in sales.",
-    tags: [
-      "Webflow",
-      "Booking",
-      "Automation",
-      "Stripe",
-      "Social Media Integration",
-      "SEO",
-      "Blog Content",
-    ],
-    image: "/wpbabu.com.webm",
-    links: [{ label: "Website", url: "#" }],
-  },
+
   {
     title: "Peach Tree Pools",
     date: "January 2023 - June 2023",
@@ -87,7 +55,7 @@ const projects = [
       "Blog Content",
     ],
     image: "/peachtreepools.com.webm",
-    links: [{ label: "Website", url: "#" }],
+    links: [{ label: "Website", url: "https://peachtreepools.com/" }],
   },
 ];
 
