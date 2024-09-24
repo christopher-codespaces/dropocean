@@ -48,9 +48,9 @@ export function ProjectCard({
           {links.map((link, index) => (
             <a
               key={index}
-              href={link.url}
-              target="_blank" // This ensures the link opens in a new tab
-              rel="noopener noreferrer" // Improves security
+              href={`https://${link.url}`}  // Ensure it's a full URL
+              target="_blank"  // Open in a new tab
+              rel="noopener noreferrer"  // Security measure
               className="inline-block bg-cyan-500 text-white text-sm font-medium px-4 py-2 rounded hover:bg-black transition">
               {link.label}
             </a>
