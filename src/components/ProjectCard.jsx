@@ -49,7 +49,9 @@ export function ProjectCard({
             <a
               key={index}
               href={link.url}
-              className="inline-block bg-cyan-500     text-white text-sm font-medium px-4 py-2 rounded hover:bg-black transition">
+              target="_blank" // This ensures the link opens in a new tab
+              rel="noopener noreferrer" // Improves security
+              className="inline-block bg-cyan-500 text-white text-sm font-medium px-4 py-2 rounded hover:bg-black transition">
               {link.label}
             </a>
           ))}
